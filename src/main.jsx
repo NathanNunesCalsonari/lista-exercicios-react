@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Aparelhos from './routes/EditarProdutos/index.jsx';
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './routes/Home/index.jsx';
 import Error from './routes/Error/index.jsx';
 import EditarProdutos from './routes/EditarProdutos/index.jsx';
@@ -16,14 +15,17 @@ const router = createBrowserRouter([
     element: <App/>,
     errorElement: <Error/>,
     children: [
-      { path: '/produtos/editar/:id' , 
-      element: <EditarProdutos/>
+      { 
+        path: '/produtos/editar/:id' , 
+        element: <EditarProdutos/>
       },
-      { path: '/' , 
-      element: <Home/>
+      { 
+        path: '/' , 
+        element: <Home/>
       },
-      { path: '/Produtos' , 
-      element: <Produtos/>
+      { 
+        path: '/Produtos' , 
+        element: <Produtos/>
       },
     ]
   }
