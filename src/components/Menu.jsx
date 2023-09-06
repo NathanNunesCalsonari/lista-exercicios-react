@@ -8,7 +8,7 @@ export default function Menu(){
             <span> | </span>
             <Link to='/produtos'>Produtos</Link>
             <span> | </span>
-            <Link to='/EditarProdutos'>EditarProdutos</Link>
+            <Link to='/produtos/editar/:id'>EditarProdutos</Link>
         </nav>
     )
 }
