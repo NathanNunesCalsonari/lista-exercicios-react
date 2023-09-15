@@ -1,32 +1,45 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 
-import { createBrowserRouter, RouterProvider} from 'react-router-dom';
-import Home from './routes/Home/index.jsx';
-import Error from './routes/Error/index.jsx';
-import EditarProdutos from './routes/EditarProdutos/index.jsx';
-import Produtos from './routes/Produtos/index.jsx';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
+import Home from './routes/Home/index.jsx'
+import Aparelhos from './routes/Aparelhos/index.jsx'
+import VisualizarAparelho from './routes/VisualizarAparelho/index.jsx'
+import Error from './routes/Error/index.jsx'
+import EditarProduto from './components/EditarProduto.jsx'
 
 const router = createBrowserRouter([
-  { 
-    path: '/' , 
-    element: <App/>,
-    errorElement: <Error/>,
+  {
+    path: '/' ,
+    element: <App/> ,
+    errorElement: <Error/> ,
     children: [
-      { 
-        path: '/produtos/editar/:id' , 
-        element: <EditarProdutos/>
+      { path: '/' ,
+      element: <Home/>
       },
-      { 
-        path: '/' , 
-        element: <Home/>
+      {path: '/Aparelhos' ,
+    element:<Aparelhos/>
+  },
+      {path: '/VisualizarAparelhos' ,
+      element: <VisualizarAparelho/>
+
       },
-      { 
-        path: '/Produtos' , 
-        element: <Produtos/>
+   
+      {
+        path: '/Aparelhos/editar/:id',
+        element: <EditarProduto/>
       },
+      {
+        path: '/antiga',
+        element: <Navigate to="/"/>
+      },
+        {
+        path: '/Error',
+        element: <Navigate to="/"/>
+      }
+
+
     ]
   }
 ]);
