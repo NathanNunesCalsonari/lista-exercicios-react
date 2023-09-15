@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <h1>Promoções do dia</h1>
       {aparelhoPromocao.map(prod => (
-        <div key={prod.id} class="style-product">
+        <div key={prod.id} className="style-product">
           <Link to={`../produtos/editar/${prod.id}`} >
               <p>{prod.nome}</p>
               <p>Por apenas R$ {prod.preco}</p>

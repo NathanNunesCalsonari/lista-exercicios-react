@@ -1,53 +1,57 @@
-export const listaProdutos = [
+export const ListaProdutos = [
     {
         id: 1,
-        nome: 'Tablet Pad SE 128gb',
-        img:"https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwix8fbh4q2BAxWQLK0GHSgtAeoYABAFGgJwdg&gclid=EAIaIQobChMIsfH24eKtgQMVkCytBh0oLQHqEAQYASABEgIeIPD_BwE&ohost=www.google.com&cid=CAASJeRoLXOJXM0lpkhSGgI_lmxI4cE8geO0-hvmmxZQ3E3Uuj7BfnQ&sig=AOD64_2WddIi_WpxAl5HjOmV_8hUBhfMWg&ctype=5&q=&ved=2ahUKEwjKwOXh4q2BAxXjkZUCHZylBiQQ9aACKAB6BAgEEAs&adurl=",
-		preco: 2199,
-		bateria: "5000mAh",
-		ram: "8 GB"
+        nome: 'Xiaomi Redmi Pad, 6GB 128GB',
+        img:"https://m.media-amazon.com/images/I/41h+1ms4JlL._AC_SX679_.jpg",
+        preco: 1542,
+        bateria: "5000mAh",
+        ram: "6 GB",
+        peso: "820g",
+        camera_frontal: "15MP",
+        camera_traseira: "4MP + 8MP + 6MP"
     },
     {
         id: 2,
-        nome: 'Tablet Positivo 32gb',
-        img:"https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwix8fbh4q2BAxWQLK0GHSgtAeoYABAFGgJwdg&gclid=EAIaIQobChMIsfH24eKtgQMVkCytBh0oLQHqEAQYASABEgIeIPD_BwE&ohost=www.google.com&cid=CAASJeRoLXOJXM0lpkhSGgI_lmxI4cE8geO0-hvmmxZQ3E3Uuj7BfnQ&sig=AOD64_2WddIi_WpxAl5HjOmV_8hUBhfMWg&ctype=5&q=&ved=2ahUKEwjKwOXh4q2BAxXjkZUCHZylBiQQ9aACKAB6BAgEEAs&adurl=",
-		preco: 1199,
-		bateria: "3000mAh",
-		ram: "6 GB"
+        nome: 'APPLE IPHONE 14 256GB',
+        img:"https://planoscelular.claro.com.br/medias/18375-0-zero-300Wx300H-productCard?context=bWFzdGVyfGltYWdlc3w2NTY1NXxpbWFnZS9wbmd8aGJiL2hmMS85MjY3NDY4NjY0ODYyLzE4Mzc1XzBfemVyb18zMDBXeDMwMEhfcHJvZHVjdENhcmR8OGNkOThlY2Q0MmJiZDI1NTYwYTk5NjcxOTc0ZmU5ODE2ODBhZjEzNTc3Yzk0NTFjMTAyMTVjNzRiODUyMmNjZQ",
+        preco: 6000,
+        bateria: "5000mAh",
+        ram: "4 GB",
+        peso: "0.183KG",
+        camera_frontal: "13MP",
+        camera_traseira: "48MP + 8MP + 5MP"
     },
     {
         id: 3,
-        nome: 'Tablet Multilaser 32GB, Dual Chip 3G',
-        img:"https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwix8fbh4q2BAxWQLK0GHSgtAeoYABAFGgJwdg&gclid=EAIaIQobChMIsfH24eKtgQMVkCytBh0oLQHqEAQYASABEgIeIPD_BwE&ohost=www.google.com&cid=CAASJeRoLXOJXM0lpkhSGgI_lmxI4cE8geO0-hvmmxZQ3E3Uuj7BfnQ&sig=AOD64_2WddIi_WpxAl5HjOmV_8hUBhfMWg&ctype=5&q=&ved=2ahUKEwjKwOXh4q2BAxXjkZUCHZylBiQQ9aACKAB6BAgEEAs&adurl=",
-		preco: 527,
-		bateria: "4000mAh",
-		ram: "8 GB"
+        nome:'MOTOROLA MOTO G23 128GB',
+        img:"https://planoscelular.claro.com.br/medias/18527-0-zero-300Wx300H-productCard?context=bWFzdGVyfGltYWdlc3w2OTA4M3xpbWFnZS9wbmd8aDQyL2g5NC85NTYzMzM1MDk4Mzk4LzE4NTI3XzBfemVyb18zMDBXeDMwMEhfcHJvZHVjdENhcmR8OWU5YWZkN2ZmNjcyZDBmMDlkYWZiM2UxZjVhMDkxZTRmYzM4NTQ0MDBlZTRmZmRkNGY1ODQyMjc5ZGIzYTQ5NA",
+        preco: 1149,
+        bateria: "5000mAh",
+        ram: "4 GB",
+        peso: "0.184KG",
+        camera_frontal: "16MP",
+        camera_traseira: "50MP + 5MP + 2MP"
     },
     {
         id: 4,
-        nome: 'Smartphone Samsung Galaxy A03 Core 32GB',
-        img:"https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwix8fbh4q2BAxWQLK0GHSgtAeoYABAFGgJwdg&gclid=EAIaIQobChMIsfH24eKtgQMVkCytBh0oLQHqEAQYASABEgIeIPD_BwE&ohost=www.google.com&cid=CAASJeRoLXOJXM0lpkhSGgI_lmxI4cE8geO0-hvmmxZQ3E3Uuj7BfnQ&sig=AOD64_2WddIi_WpxAl5HjOmV_8hUBhfMWg&ctype=5&q=&ved=2ahUKEwjKwOXh4q2BAxXjkZUCHZylBiQQ9aACKAB6BAgEEAs&adurl=",
-		preco: 649,
-		bateria: "4500mAh",
-		ram: "6 GB"
+        nome:'APPLE IPHONE 12 64GB',
+        img:"https://planoscelular.claro.com.br/medias/18005-0-zero-300Wx300H-productCard?context=bWFzdGVyfGltYWdlc3w2MTU3MnxpbWFnZS9wbmd8aDZjL2hlMC85MzIwNzkzOTk3MzQyLzE4MDA1XzBfemVyb18zMDBXeDMwMEhfcHJvZHVjdENhcmR8ZWFlZmYwM2FjY2YyZjQwYWFiOGIwNjdiMjc2YzAzZDRmN2ZiMWQyN2FhNjVmYWIwOGRlN2ZkMGE0YzExNGQ0OQ",
+        preco: 2999,
+        bateria: "2815mAh",
+        ram: "4 GB",
+        peso: "0.162KG",
+        camera_frontal: "12MP + SL 3D",
+        camera_traseira: "12MP + 12MP"
     },
     {
         id: 5,
-        nome: 'Smartphone Samsung Galaxy A14 64 GB',
-		img: "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwix8fbh4q2BAxWQLK0GHSgtAeoYABAFGgJwdg&gclid=EAIaIQobChMIsfH24eKtgQMVkCytBh0oLQHqEAQYASABEgIeIPD_BwE&ohost=www.google.com&cid=CAASJeRoLXOJXM0lpkhSGgI_lmxI4cE8geO0-hvmmxZQ3E3Uuj7BfnQ&sig=AOD64_2WddIi_WpxAl5HjOmV_8hUBhfMWg&ctype=5&q=&ved=2ahUKEwjKwOXh4q2BAxXjkZUCHZylBiQQ9aACKAB6BAgEEAs&adurl=",
-        preco: 854,
-		bateria: "5000mAh",
-		ram: "8 GB"
+        nome:'SAMSUNG GALAXY A23 5GB 64GB',
+        img:"https://planoscelular.claro.com.br/medias/18447-0-zero-300Wx300H-productCard?context=bWFzdGVyfGltYWdlc3wxMDQ1OTB8aW1hZ2UvcG5nfGhkNS9oZGUvOTUwMjcwMzU4MzI2Mi8xODQ0N18wX3plcm9fMzAwV3gzMDBIX3Byb2R1Y3RDYXJkfGM1YzQzYWFlNWUwNjNjMjFmNDYyNDk1MmI0YTk4ZjYzN2M0MTllZjIxNDc3OGU0ZGQ3OTk3NmE3NWU0NThiM2U",
+        preco: 950,
+        bateria: "5000mAh",
+        ram: "4 GB",
+        peso: "0.383KG",
+        camera_frontal: "8MP",
+        camera_traseira: "48MP + 5MP + 2MP"
     },
-    {
-        id: 6,
-        nome: 'Smartphone Motorola Moto E22',
-        img:"https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwix8fbh4q2BAxWQLK0GHSgtAeoYABAFGgJwdg&gclid=EAIaIQobChMIsfH24eKtgQMVkCytBh0oLQHqEAQYASABEgIeIPD_BwE&ohost=www.google.com&cid=CAASJeRoLXOJXM0lpkhSGgI_lmxI4cE8geO0-hvmmxZQ3E3Uuj7BfnQ&sig=AOD64_2WddIi_WpxAl5HjOmV_8hUBhfMWg&ctype=5&q=&ved=2ahUKEwjKwOXh4q2BAxXjkZUCHZylBiQQ9aACKAB6BAgEEAs&adurl=",
-		preco: 899,
-		bateria: "5000mAh",
-		ram: "6 GB"
-    }
-
-
-
 ]
