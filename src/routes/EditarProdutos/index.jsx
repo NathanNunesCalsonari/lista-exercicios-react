@@ -17,7 +17,7 @@ export default function EditarProduto() {
   
   return (
     <main>
-      <div class="style-product">
+      <div className="style-product">
         <h1>DADOS DO PRODUTO</h1>
         <h2>{produto.nome}</h2>
         <h2>R${produto.preco}</h2>
