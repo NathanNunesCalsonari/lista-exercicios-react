@@ -49,15 +49,21 @@ nav{
   }
   main{ display: flex; width: 100vw;
   flex-direction: column; justify-content: center;
-  align-items: center; height: 70vh;
+  align-items: center; height: 100vh;
   }
   footer{
-  display: flex; width: 100vw; justify-content: center;
-  align-items: center; height: 5vh;
+  display: flex; 
+  width: 100vw; 
+  justify-content: center;
+  align-items: center; 
+  height: 5vh;
   background-color: darkblue;
   }
 
 img {
   width: 300px;
+  height: auto;
 }
+
+
 
